@@ -6,7 +6,7 @@ import org.junit.Test;
 public class RomanNumeralUnitTests {
 
 	@Test
-	public void test() {
+	public void testThat1ReturnsI() {
 		RomanNumerals number = new RomanNumerals();
 		assertEquals("I", number.toRoman(1));
 	}
